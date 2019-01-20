@@ -29,8 +29,6 @@ class CustomPDPLayout: UICollectionViewFlowLayout {
                     // 4. as contentOffsetY is -ve, the height will increase based on contentOffsetY
                     let height = attribute.frame.height - contentOffsetY
                     attribute.frame = CGRect(x: 0, y: contentOffsetY, width: width, height: height)
-                } else {
-                    
                 }
             }
         })

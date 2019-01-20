@@ -27,7 +27,7 @@ class ProductDetailsPageViewController: UICollectionViewController {
         collectionView.register(PDPHeaderView.self, forSupplementaryViewOfKind: UICollectionView.elementKindSectionHeader, withReuseIdentifier: headerId)
         collectionView.contentOffset = .zero
       
-        if let layout = collectionViewLayout as? UICollectionViewFlowLayout {
+        if let layout = collectionViewLayout as? CustomPDPLayout {
             layout.minimumLineSpacing = 8
             layout.sectionInset = UIEdgeInsets(top: padding, left: padding, bottom: padding, right: padding)
         }
