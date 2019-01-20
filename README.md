@@ -7,6 +7,7 @@ bigger with visual effect.
 
 
 The entire developement details has been captured here:
+
+<b>
 https://medium.com/@mail2ashislaha/stretchy-header-animation-using-collection-view-custom-layout-f2ce466ec710
-
-
+</b>
